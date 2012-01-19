@@ -1,12 +1,12 @@
-# revision 23939
+# revision 25143
 # category Package
 # catalog-ctan /macros/latex/contrib/sapthesis
-# catalog-date 2011-09-13 13:48:05 +0200
+# catalog-date 2012-01-18 20:29:26 +0100
 # catalog-license lppl1.3
-# catalog-version 2.8
+# catalog-version 3.0
 Name:		texlive-sapthesis
-Version:	2.8
-Release:	2
+Version:	3.0
+Release:	1
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sapthesis
