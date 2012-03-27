@@ -1,11 +1,11 @@
-# revision 25143
+# revision 25593
 # category Package
 # catalog-ctan /macros/latex/contrib/sapthesis
-# catalog-date 2012-01-18 20:29:26 +0100
+# catalog-date 2012-03-09 11:37:27 +0100
 # catalog-license lppl1.3
-# catalog-version 3.0
+# catalog-version 3.1.1
 Name:		texlive-sapthesis
-Version:	3.0
+Version:	3.1.1
 Release:	1
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
@@ -34,9 +34,10 @@ of Rome.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/bibtex/bst/sapthesis/sapthesis.bst
+%{_texmfdistdir}/tex/latex/sapthesis/sapienza-MLblack-pos.pdf
+%{_texmfdistdir}/tex/latex/sapthesis/sapienza-MLred-pos.pdf
 %{_texmfdistdir}/tex/latex/sapthesis/sapthesis.cls
-%doc %{_texmfdistdir}/doc/latex/sapthesis/README.TEXLIVE
-%doc %{_texmfdistdir}/doc/latex/sapthesis/README.sapthesis
+%doc %{_texmfdistdir}/doc/latex/sapthesis/README
 %doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-doc.tex
 %doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-example.pdf
