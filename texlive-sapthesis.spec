@@ -52,3 +52,24 @@ of Rome.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1.1-1
++ Revision: 787764
+- Update to latest release.
+
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0-1
++ Revision: 762725
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.8-2
++ Revision: 755788
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.8-1
++ Revision: 719480
+- texlive-sapthesis
+- texlive-sapthesis
+- texlive-sapthesis
+
