@@ -1,11 +1,11 @@
-# revision 25593
+# revision 31487
 # category Package
 # catalog-ctan /macros/latex/contrib/sapthesis
-# catalog-date 2012-03-09 11:37:27 +0100
+# catalog-date 2013-08-21 10:23:24 +0200
 # catalog-license lppl1.3
-# catalog-version 3.1.1
+# catalog-version 3.2
 Name:		texlive-sapthesis
-Version:	3.1.1
+Version:	3.2
 Release:	1
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
@@ -38,10 +38,15 @@ of Rome.
 %{_texmfdistdir}/tex/latex/sapthesis/sapienza-MLred-pos.pdf
 %{_texmfdistdir}/tex/latex/sapthesis/sapthesis.cls
 %doc %{_texmfdistdir}/doc/latex/sapthesis/README
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/Laurea.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/LaureaMagistrale.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/Master.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/PhD.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/Specialization.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/examples/TFA.tex
 %doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-doc.tex
-%doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-example.pdf
-%doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis-example.tex
+%doc %{_texmfdistdir}/doc/latex/sapthesis/sapthesis.layout
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,24 +57,3 @@ of Rome.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1.1-1
-+ Revision: 787764
-- Update to latest release.
-
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0-1
-+ Revision: 762725
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.8-2
-+ Revision: 755788
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.8-1
-+ Revision: 719480
-- texlive-sapthesis
-- texlive-sapthesis
-- texlive-sapthesis
-
