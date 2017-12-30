@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 3.2
 Name:		texlive-sapthesis
-Version:	3.2
-Release:	9
+Version:	3.8
+Release:	1
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sapthesis
