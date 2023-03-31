@@ -1,6 +1,6 @@
 Name:		texlive-sapthesis
 Version:	63810
-Release:	1
+Release:	2
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sapthesis
