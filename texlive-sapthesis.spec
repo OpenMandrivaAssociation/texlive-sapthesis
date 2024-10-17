@@ -3,7 +3,7 @@ Version:	63810
 Release:	2
 Summary:	Typeset theses for Sapienza-University, Rome
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sapthesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sapthesis
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sapthesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sapthesis.doc.r%{version}.tar.xz
